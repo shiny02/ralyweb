@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  background-color: rgba(0,0,0,.018);
+  color: rgba(0,0,0,.75);
+  font-family: 'Roboto';
+  margin: 0p;
+}
+
+nav {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.App {
+  height: 100%;
+  padding: 0;
+  margin: 2em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.App-logo {
+  height: 80px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
